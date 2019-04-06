@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import os
 
-base_path = '/home/wangz/Desktop/音乐推荐系统/vector'
+base_path = ***
 
 
 # 从文件中返回一个向量集合
