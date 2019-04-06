@@ -11,7 +11,7 @@ import pymysql
 import csv
 
 model = load_model('model.h5')
-data_dir = '/home/wangz/Desktop/音乐推荐系统/train_data'
+data_dir = ***
 spectrum_dir_list = glob.glob(os.path.join(data_dir, '*'))
 spectrum_list = glob.glob(os.path.join(data_dir, '*/*.jpg'))
 
@@ -44,7 +44,7 @@ def img_preprocess(image):
 #     files.sort()
 #     vector_list = []
 #     current_classfication = dir_path.split('/')[-1]
-#     current_txt_path = os.path.join('/home/wangz/Desktop/音乐推荐系统/vector', current_classfication+'.txt')
+#     current_txt_path = os.path.join(***, current_classfication+'.txt')
 #     for file in files:
 #         image = plt.imread(os.path.join(dir_path, file))
 #         image = img_preprocess(image)
