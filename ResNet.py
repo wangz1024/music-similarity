@@ -112,7 +112,7 @@ def ResNet18(input_shape):
 # read data
 data = []
 label = []
-train_data_dir = '/home/wangz/Desktop/音乐推荐系统/train_data'
+train_data_dir = ***
 spectrum_list = glob.glob(os.path.join(train_data_dir, '*/*.jpg'))
 
 for spectrum_path in spectrum_list:
@@ -187,7 +187,7 @@ model.compile(loss='categorical_crossentropy', optimizer=adam(lr=0.005), metrics
 
 # use tensorboard to record the procession
 s_time = time.strftime("%Y%m%d%H%M%S", time.localtime())
-logs_path = '/home/wangz/Desktop/音乐推荐系统/logs/log_%s' % s_time
+logs_path = ***
 
 tensorboard = TensorBoard(log_dir=logs_path)
 
