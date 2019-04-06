@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import os
 import glob
 
-spectrum_input_dir = '/home/wangz/Desktop/音乐推荐系统/ballroomMelSpec'
-spectrum_output_dir = '/home/wangz/Desktop/音乐推荐系统/train_data'
+spectrum_input_dir = ***
+spectrum_output_dir = ***
 
 spectrum_list = glob.glob(os.path.join(spectrum_input_dir, '*/*.jpg'))
 if not os.path.exists(spectrum_output_dir):
@@ -34,5 +34,4 @@ with tf.Session() as sess:
         plt.imsave(save_path, resize_image)
         # break
 
-# image = plt.imread('/home/wangz/Desktop/音乐推荐系统/train_data/Tango/000002.jpg')
-# print(image.shape)
+
