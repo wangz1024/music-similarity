@@ -57,7 +57,7 @@ def img_preprocess(image):
 #         f.close()
 
 # 写入至数据库
-db = pymysql.connect('localhost', 'root', '123abc', 'music_info')
+db = pymysql.connect(***)
 cursor = db.cursor()
 
 for dir_path in spectrum_dir_list:
